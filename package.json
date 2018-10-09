@@ -1,0 +1,25 @@
+{
+  "name": "travis-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/scrape.ts",
+  "scripts": {
+    "scrape": "ts-node src/scrape.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-docs": "typedoc --out doc/ --readme README.md src/"
+  },
+  "author": "Joey Dodds",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@types/node": "^10.11.4",
+    "@types/request": "^2.47.1",
+    "request": "^2.88.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "request-debug": "^0.2.0",
+    "tsconfig-paths": "^3.6.0",
+    "typedoc": "^0.12.0"
+  }
+}
