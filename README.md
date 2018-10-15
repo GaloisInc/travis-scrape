@@ -2,6 +2,13 @@
 
 A script to get information about builds for a repository and compute some statistics.
 
+## Dependencies
+
+These should be available on your path before you start:
+
+  - [Node](https://nodejs.org/en/download/) (includes npm)
+
+
 ## Use
 
 Clone this repo
@@ -13,7 +20,6 @@ cd travis-scrape
 Install dependencies
 ```
 npm install
-npm install -g node-ts
 ```
 
 Run the script
@@ -23,6 +29,5 @@ npm run scrape
 
 Generate documentation, into the doc directory
 ```
-npm install -g typedoc typescript
 npm run build-docs
 ```
